@@ -1,0 +1,24 @@
+artifact_path: file:c:/Users/Dodo-28/Downloads/telco customer chrun IBM/-Customer-Churn-Prediction-and-Analysis-/NOTEBOOK/MLOps,
+  Deployment, and Monitoring/mlruns/1/models/m-53e849ee5a974065a352303c9dbd5ca8/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.1
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-53e849ee5a974065a352303c9dbd5ca8
+model_size_bytes: 29991595
+model_uuid: m-53e849ee5a974065a352303c9dbd5ca8
+prompts: null
+run_id: f5b8bb5aa2dc4cdea6a724b098f1a3e3
+utc_time_created: '2026-07-10 18:42:25.703863'
